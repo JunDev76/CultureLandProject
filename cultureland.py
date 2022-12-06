@@ -30,7 +30,7 @@ def main():
         driver.get("https://m.cultureland.co.kr/mmb/loginMain.do")
 
         Cul_ID = requests.get("https://www.crsbe.kr/cul_pay/getID").text
-        Cul_PW = "juns80766"
+        Cul_PW = "@@@@@@@@@@@@@@@@@@@@Changed@@@@@@@@@@@@@@@@@@@@@"
 
         # 아이디 입력
         driver.find_element_by_id("txtUserId").send_keys(Cul_ID)
